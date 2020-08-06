@@ -12,6 +12,7 @@
 #include <ctype.h>
 #include <unistd.h>
 
+
 #include "dns.h"
 
 #define BUFLEN 512
@@ -102,6 +103,7 @@ int static parse_name(const unsigned char **inpos, const unsigned char *inend, c
     }
   } while(1);
 }
+
 
 //  0: k
 // -1: component > 63 characters
